@@ -27,6 +27,7 @@
 # Virtual Box
 # --------------------------------------------------------------
 
+
 Vagrant.configure("2") do |db|
     db.vm.define "mongodb" do |mongodb|
       mongodb.vm.box = "generic/ubuntu2010"

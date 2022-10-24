@@ -1,14 +1,14 @@
 import express from "express";
 import router from "./routes/students.js";
 import bodyParser from "body-parser";
-
+import mongoose from 'mongoose';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-//add mogoose.connect 
+mongoose.connect("mongodb://192.168.56.20:27017/students" || "mongodb://localhost:27017/students");
 
 const app = express();
 const port = process.env.PORT || 3002;

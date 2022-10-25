@@ -2,6 +2,7 @@ This is a Node/Mongo development enviroment as a beginner project.
 
 Description: I created a basic development enviroment that uses Vagrant to deploy and provision two local virtual machines that will host a node api and a mongo database respectively. The node api contains routes and functions for a student database and the database will house that student information.
 
+
 Dependencies:
 1. Requires Vagrant and VirtualBox/VMWare to create and manage virtual machines.
 

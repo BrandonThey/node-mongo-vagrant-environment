@@ -12,4 +12,4 @@ How to install and run the project:
 3. Start the create the virtual machines using "vagrant up" in your terminal
 4. Go to nology.training/cicd to view the webpage
 
-testing part 2, part 3
+testing part 2, part 3, part 4
